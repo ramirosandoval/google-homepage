@@ -1,0 +1,16 @@
+.simbol {
+    background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') no-repeat -139px -45px;
+	width: 16px;
+	height: 16px;
+}
+
+.googleIcon{
+    background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') no-repeat 0 -36px;
+	width: 91px;
+	height: 30px;
+}
+
+    
+ul{
+    list-style: none;
+}
