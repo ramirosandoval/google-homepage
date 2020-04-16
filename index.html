@@ -9,33 +9,48 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="header-nav">
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Images</a></li>
-                <li class="simbol"><a href=""></a></li>
-                <li><a href="">User profile pic</a></li>
+                <div class="first-division">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Store</a></li>
+                </div>
+                
+                <div class="second-division">
+                    <li><a href="">Gmail</a></li>
+                    <li><a href="">Images</a></li>
+                    <li class="simbol"><a href=""></a></li>
+                    <li><a href=""><img src="https://lh3.googleusercontent.com/-_d4XvmvsroA/AAAAAAAAAAI/AAAAAAAAAAA/AAKWJJPFyq30iLRB-A51_cgrNYy3CE4mnQ.CMID/s32-c/photo.jpg" alt="" class="user-photo"></a></li>
+                </div>
+                
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="googleIcon"> <a href=""></a></div>
-        <input type="text" name="searchbar" id="search">
-        <label for="search"><button type="submit">Google Search</button></label>
-        <label for="search"><button type="submit">I'm Feeling Lucky</button></label>
+
+    <main class="main-content">
+        <div class="googleIcon"><img src="https://web.archive.org/web/20191130234759im_/https:/www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo" class="google-icon"></div>
+        <input type="text" name="searchbar" class="search">
+        <div class="searchbar-buttons">
+            <label for="search"><button type="submit">Google Search</button></label>
+            <label for="search"><button type="submit">I'm Feeling Lucky</button></label>
+        </div>
+        <p class="offered">Google offered in: <a href="google.com.es">Español (Latinoamérica)</a></p>
     </main>
 
     <footer>
-        <nav>
+        <nav class="footer-nav">
             <ul>
-                <li><a href="">Advertising</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">How Search works</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Terms</a></li>
-                <li><a href="">Settings</a></li>
+                <div class="first-division">
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search works</a></li>
+                </div>
+
+                <div class="second-division">
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Settings</a></li>
+                </div>
             </ul>
         </nav>
     </footer>
